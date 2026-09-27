@@ -1,0 +1,100 @@
+/* ===== Meta Ads Results section ===== */
+.ads-results-section .col-md-4 {
+  margin-bottom: 30px;
+}
+
+.ads-card {
+  width: 100%;
+  background: #16181d;
+  border: 1px solid rgba(255,189,57,.18);
+  border-radius: 14px;
+  padding: 26px 24px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+
+.ads-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255,189,57,.55);
+  box-shadow: 0 14px 28px rgba(0,0,0,.35);
+}
+
+.ads-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  color: #ffbd39;
+  background: rgba(255,189,57,.1);
+  border: 1px solid rgba(255,189,57,.35);
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+
+.ads-metric {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.ads-number {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+}
+
+.ads-metric-label {
+  font-size: 13px;
+  color: rgba(255,255,255,.6);
+}
+
+.ads-campaign-name {
+  font-size: 14px;
+  color: rgba(255,255,255,.85);
+  margin: 2px 0 6px;
+  font-weight: 500;
+}
+
+.ads-stats-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding-top: 14px;
+  margin-top: 4px;
+}
+
+.ads-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ads-stat .stat-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: rgba(255,255,255,.45);
+}
+
+.ads-stat .stat-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffbd39;
+}
+
+.ads-extra {
+  font-size: 12px;
+  color: rgba(255,255,255,.5);
+  margin-top: 4px;
+}
+
+@media (max-width: 767px) {
+  .ads-number { font-size: 32px; }
+}
